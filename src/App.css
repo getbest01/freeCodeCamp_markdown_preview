@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+textarea, #preview {
+  text-align: left;
+  width: 100%;
+  min-height: 400px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin: 40px;
+}
+
+pre, code {
+  font-family:'Cascadia Code', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightgrey;
+}
